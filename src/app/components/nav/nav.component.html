@@ -1,0 +1,26 @@
+<mat-toolbar id="nav">
+  <!-- <mat-toolbar id="nav" color="primary"> -->
+
+  <mat-toolbar-row id="row">
+    <!-- <span>Third Line</span>
+    <span class="example-spacer"></span>
+    <i class="material-icons" [matMenuTriggerFor]="menu">
+      menu
+    </i>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu> -->
+    <!-- <button class="header-button" mat-button>Home</button>
+    <button class="header-button" mat-button>About</button> -->
+    <a mat-list-item routerLink="/home" routerLinkActive="active-list-item">
+      <button class="header-button" mat-stroked-button>Home</button></a
+    >
+    <a mat-list-item routerLink="/about" routerLinkActive="active-list-item"
+      ><button class="header-button" mat-stroked-button>About</button></a
+    >
+    <a mat-list-item routerLink="/portfolio" routerLinkActive="active-list-item"
+      ><button class="header-button" mat-stroked-button>Portfolio</button></a
+    >
+  </mat-toolbar-row>
+</mat-toolbar>

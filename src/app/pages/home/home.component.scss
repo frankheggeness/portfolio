@@ -1,0 +1,26 @@
+@import '../../../styles.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  // font-size: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+.header-button {
+  font-family: 'Oswald', sans-serif;
+}
+
+#row {
+  display: flex;
+  justify-content: space-around;
+}
+#home-page {
+  display: flex;
+  justify-content: center;
+}
